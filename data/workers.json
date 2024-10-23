@@ -1,0 +1,86 @@
+[
+  {
+    "id": "6f4fdfd9-da33-4711-9386-579e8101dc43",
+    "name": "Worker One",
+    "bot": "04140c19-0c46-43c6-8e78-f459cd3b3370",
+    "created": 1711795045853,
+    "description": "Description of worker \"Worker One\""
+  },
+  {
+    "id": "98f2b3cd-53dc-42b3-b327-935113e2b105",
+    "name": "Worker Two",
+    "bot": "44700aa2-cba6-43d2-9ad4-8d8a499bd356",
+    "created": 1719152408012,
+    "description": "Description of worker \"Worker Two\""
+  },
+  {
+    "id": "9844fd23-415b-4d2f-9fa1-78571036cd96",
+    "name": "Worker Three",
+    "bot": "44700aa2-cba6-43d2-9ad4-8d8a499bd356",
+    "created": 1725713680199,
+    "description": "Description of worker \"Worker Three\""
+  },
+  {
+    "id": "318c5907-40b4-4353-9f2d-93c1355a1b83",
+    "name": "Worker Four",
+    "bot": "22526dec-4e04-4815-a641-ee6c71cbc5a9",
+    "created": 1728742779871,
+    "description": "Description of worker \"Worker Four\""
+  },
+  {
+    "id": "bf991cbe-e671-4ae6-9538-353d754f0eff",
+    "name": "Worker Five",
+    "bot": "04140c19-0c46-43c6-8e78-f459cd3b3370",
+    "created": 1716517927386,
+    "description": "Description of worker \"Worker Five\""
+  },
+  {
+    "id": "f1c02ccd-270a-4db1-85d9-97dbdea535fa",
+    "name": "Worker Six",
+    "bot": "22526dec-4e04-4815-a641-ee6c71cbc5a9",
+    "created": 1727869226618,
+    "description": "Description of worker \"Worker Six\""
+  },
+  {
+    "id": "0fb5c514-eeaf-4cc2-b23a-20cdc04cbe17",
+    "name": "Worker Seven",
+    "bot": "04140c19-0c46-43c6-8e78-f459cd3b3370",
+    "created": 1709494626731,
+    "description": "Description of worker \"Worker Seven\""
+  },
+  {
+    "id": "bc5cc0b1-26ea-49a0-b49b-20757a93a227",
+    "name": "Worker Eight",
+    "bot": "22526dec-4e04-4815-a641-ee6c71cbc5a9",
+    "created": 1726945493489,
+    "description": "Description of worker \"Worker Eight\""
+  },
+  {
+    "id": "374bef68-e278-4b1e-810b-83eccbdf3eaf",
+    "name": "Worker Nine",
+    "bot": "22526dec-4e04-4815-a641-ee6c71cbc5a9",
+    "created": 1728352208610,
+    "description": "Description of worker \"Worker Nine\""
+  },
+  {
+    "id": "e5d7874c-fd2d-41b8-abc1-2e311964ae8c",
+    "name": "Worker Ten",
+    "bot": "22526dec-4e04-4815-a641-ee6c71cbc5a9",
+    "created": 1726052142203,
+    "description": "Description of worker \"Worker Ten\""
+  },
+  {
+    "id": "dea6c463-95e9-4c11-9207-89cfc6c101e8",
+    "name": "Worker Eleven",
+    "bot": "44700aa2-cba6-43d2-9ad4-8d8a499bd356",
+    "created": 1726531880476,
+    "description": "Description of worker \"Worker Eleven\""
+  },
+  {
+    "id": "c41a527e-0b14-4f56-bc0d-b1c77833d50a",
+    "name": "Worker Twelve",
+    "bot": "44700aa2-cba6-43d2-9ad4-8d8a499bd356",
+    "created": 1722504219388,
+    "description": "Description of worker \"Worker Twelve\""
+  }
+]

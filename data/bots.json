@@ -1,0 +1,23 @@
+[
+  {
+    "id": "04140c19-0c46-43c6-8e78-f459cd3b3370",
+    "name": "Bot One",
+    "status": "enabled",
+    "created": 1709342670669,
+    "description": "Description of bot [Bot One]"
+  },
+  {
+    "id": "22526dec-4e04-4815-a641-ee6c71cbc5a9",
+    "name": "Bot Two",
+    "status": "paused",
+    "created": 1724979353147,
+    "description": "Description of bot [Bot Two]"
+  },
+  {
+    "id": "44700aa2-cba6-43d2-9ad4-8d8a499bd356",
+    "name": "Bot Three",
+    "status": "disabled",
+    "created": 1719063266577,
+    "description": "Description of bot [Bot Three]"
+  }
+]
