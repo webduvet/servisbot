@@ -56,10 +56,10 @@ The Next.js backend reads and serves data from these files.
   pnpm lint
   ```
 
-- Format the code:
+- Run unit tests:
 
   ```bash
-  pnpm format
+  pnpm jest
   ```
 
 ## License
