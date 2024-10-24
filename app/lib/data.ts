@@ -75,6 +75,11 @@ export async function fetchLogs({ bot, worker }: { bot?: string, worker?: string
 	});
 }
 
+export async function fetchLogById(id: string) {
+	const logs = await fetchLogs({});
+	return logs.find((log) => log.id === id);
+}
+
 
 export async function getTotalBots() {
 	return (await fetchBots()).length;

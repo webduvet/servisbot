@@ -1,9 +1,13 @@
 import { inter } from '@/app/ui/fonts';
 import Search from '@/app/ui/search';
+import Link from 'next/link';
 import {
   FormattedLogTable,
 } from '@/app/lib/definitions';
 import { formatUnixTimestamp } from '@/app/lib/utils';
+import {
+	EyeIcon,
+} from '@heroicons/react/24/outline';
 
 function truncate(message: string, length: number) {
   return message.length > length
@@ -86,8 +90,17 @@ export default async function LogTable({
                       <td className="whitespace-nowrap bg-white px-4 py-5 text-sm">
                         {log.workerName}
                       </td>
-                      <td className="whitespace-nowrap bg-white px-4 py-5 text-sm group-first-of-type:rounded-md group-last-of-type:rounded-md">
+                      <td className="whitespace-nowrap bg-white px-4 py-5 text-sm">
                         {formatUnixTimestamp(log.created)}
+                      </td>
+                      <td className="whitespace-nowrap bg-white px-4 py-5 text-sm group-first-of-type:rounded-md group-last-of-type:rounded-md">
+                        <Link
+                          key="View"
+                          href={`/dashboard/logs/${log.id}/detail`}
+                          className="flex h-[32px] grow items-center justify-center text-sm font-medium text-blue-600 hover:text-blue-300 md:flex-none md:justify-start md:p-2 md:px-3"
+                        >
+                          <EyeIcon className="w-6" />
+                        </Link>
                       </td>
                     </tr>
                   ))}
