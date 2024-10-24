@@ -1,5 +1,4 @@
 import { inter } from '@/app/ui/fonts';
-import Search from '@/app/ui/search';
 import {
   FormattedBotTable,
 } from '@/app/lib/definitions';
@@ -56,7 +55,6 @@ export default async function BotTable({
       <h1 className={`${inter.className} mb-8 text-xl md:text-2xl`}>
         Bots
       </h1>
-      <Search placeholder="Search bots..." />
       <div className="mt-6 flow-root">
         <div className="overflow-x-auto">
           <div className="inline-block min-w-full align-middle">

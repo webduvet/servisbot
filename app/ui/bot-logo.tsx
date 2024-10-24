@@ -7,7 +7,7 @@ export default function BotLogo() {
       className={`${inter.className} flex flex-row items-center leading-none text-white`}
     >
       <SwatchIcon className="h-12 w-12 rotate-[0deg]" />
-      <p className="text-[18px]">ServiseBOT</p>
+      <p className="text-[18px]">ServisBOT</p>
     </div>
   );
 }
