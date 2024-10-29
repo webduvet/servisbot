@@ -10,7 +10,7 @@ import {
 import Link from 'next/link';
 import clsx from 'clsx';
 
-import { Status } from '@/app/ui/bots/status';
+import BotStatus from '@/app/ui/bots/status';
 
 const getLinks = (id?: string) => ([
 	{
@@ -86,6 +86,7 @@ export default async function BotTable({
 											</div>
 											<div className="flex w-1/3 flex-col">
 												<p className="text-xs">Bot Status</p>
+												<BotStatus status={bot.status} />
 												<p className="font-medium">{bot.status}</p>
 											</div>
 											<div className="flex w-1/3 flex-col">
@@ -147,7 +148,7 @@ export default async function BotTable({
 												{bot.total_workers}
 											</td>
 											<td className="whitespace-nowrap bg-white px-4 py-5 text-sm">
-												{bot.status}
+												<BotStatus status={bot.status} />
 											</td>
 											<td className="whitespace-nowrap bg-white px-4 py-5 text-sm">
 												{formatUnixTimestamp(bot.created)}

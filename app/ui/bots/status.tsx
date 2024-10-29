@@ -1,7 +1,7 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 
-export default function InvoiceStatus({ status }: { status: string }) {
+export default function BotStatus({ status }: { status: string }) {
 	return (
 		<span
 			className={clsx(
@@ -15,7 +15,7 @@ export default function InvoiceStatus({ status }: { status: string }) {
 		>
 			{status === 'paused' ? (
 				<>
-					Pending
+					Paused
 					<ClockIcon className="ml-1 w-4 text-gray-500" />
 				</>
 			) : null}
