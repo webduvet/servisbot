@@ -81,24 +81,22 @@ export default async function BotTable({
 										</div>
 										<div className="flex w-full items-center justify-between border-b py-5">
 											<div className="flex w-1/6 flex-col">
-												<p className="text-xs">Bots</p>
+												<p className="text-xs">Workers:</p>
 												<p className="font-medium">{bot.total_workers}</p>
 											</div>
 											<div className="flex w-1/3 flex-col">
-												<p className="text-xs">Bot Status</p>
 												<BotStatus status={bot.status} />
-												<p className="font-medium">{bot.status}</p>
-											</div>
-											<div className="flex w-1/3 flex-col">
-												<p className="text-xs">Bot Status</p>
-												<p className="font-medium">{bot.created}</p>
 											</div>
 										</div>
-										<div className="pt-4 text-sm">
-											<p>{bot.total_logs}</p>
-										</div>
-										<div className="pt-4 text-sm">
-											<p>{bot.total_logs}</p>
+										<div className="flex w-full items-center justify-between py-5">
+											<div className="flex w-1/2 flex-col">
+												<p className="text-xs">time:</p>
+												<p className="font-medium">{formatUnixTimestamp(bot.created)}</p>
+											</div>
+											<div className="pt-4 text-sm">
+												<p className="text-xs">Logs:</p>
+												<p>{bot.total_logs}</p>
+											</div>
 										</div>
 									</div>
 								))}
